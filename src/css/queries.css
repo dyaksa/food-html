@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box {
+        margin-top: 10px;
+    }
+
+    .step-box:last-child {
+        margin-top: 10px;
+    }
+
+    .work-step {
+        margin-bottom: 40px;
+    }
+
+    .work-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        width: 20px;
+    }
+
+    .city-features {
+        font-size: 90%;
+    }
+
+
+    .box-price {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .work-step {
+        margin-bottom: 20px;
+    }
+
+    .work-step:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .work-step div {
+        color: #e67e22;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #e67e22;
+        float: left;
+        padding: 5px;
+        font-size: 150%;
+    }
+
+    .step-box:first-child {
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .form-box {
+        padding: 2% 0;
+    }
+
+    .box-btn {
+        margin-bottom: 4%;
+    }
+
+    .social-media {
+        float: none;
+        text-align: center;
+        padding: 7% 0;
+    }
+}
+
+/*SMALL PHONE*/
+@media only screen and (max-width: 480px) {
+    .row {
+        font-size: 80%;
+        padding: 1%;
+    }
+
+    .hero-text-box h1 {
+        display: none;
+    }
+
+    .hero-text-box .btn {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        margin: 50% 0;
+    }
+}
